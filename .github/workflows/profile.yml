@@ -15,7 +15,7 @@ jobs:
 
     steps:
       # 第一步，checkout 当前项目
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       # 第二步，引入目标 action: vn7n24fzkq/github-profile-summary-cards仓库中的 `release` 分支
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
